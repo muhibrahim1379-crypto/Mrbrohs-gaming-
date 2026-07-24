@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MrBroHS Gaming</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#0d0d0d;
+    color:white;
+}
+
+header{
+    background:#ff0000;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    margin-top:10px;
+}
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    border:5px solid red;
+    object-fit:cover;
+}
+
+.hero h2{
+    margin-top:20px;
+    font-size:35px;
+}
+
+.hero p{
+    margin-top:10px;
+    color:#cccccc;
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 30px;
+    background:red;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.section{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1c1c1c;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.card h3{
+    color:red;
+    margin-bottom:10px;
+}
+
+iframe{
+    width:100%;
+    height:400px;
+    border:none;
+    border-radius:12px;
+}
+
+footer{
+    background:#111;
+    text-align:center;
+    padding:20px;
+    color:#888;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>🎮 MrBroHS Gaming</h1>
+<p>Gaming Videos • Gameplay • Shorts • Entertainment</p>
+</header>
+
+<section class="hero">
+
+<img src="profile.jpg" alt="Profile Picture">
+
+<h2>Welcome to MrBroHS Gaming</h2>
+
+<p>
+Watch exciting gameplay videos, gaming shorts,
+walkthroughs, tips, tricks and much more.
+</p>
+
+<a class="btn"
+href="https://youtube.com/@mrbrohsgaming?si=DxqHP7Y2VgPogQhl"
+target="_blank">
+Subscribe on YouTube
+</a>
+
+</section><!-- CHANNEL STATISTICS -->
+
+<section class="section">
+
+<h2 style="text-align:center;margin-bottom:30px;">
+📊 Channel Statistics
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Subscribers</h3>
+<h1>161K+</h1>
+<p>Growing every day</p>
+</div>
+
+<div class="card">
+<h3>Total Views</h3>
+<h1>32M+</h1>
+<p>Across all videos</p>
+</div>
+
+<div class="card">
+<h3>Total Videos</h3>
+<h1>3500+</h1>
+<p>Gaming content</p>
+</div>
+
+<div class="card">
+<h3>Average Views</h3>
+<h1>9K+</h1>
+<p>Per video</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="section">
+
+<h2>About MrBroHS Gaming</h2>
+
+<br>
+
+<p>
+
+MrBroHS Gaming is a gaming YouTube channel dedicated to
+bringing exciting gameplay, walkthroughs, gaming shorts,
+tips, tricks and entertaining content.
+
+Whether you enjoy action games, adventure games,
+multiplayer battles or funny gaming moments,
+there is always something new to watch.
+
+</p>
+
+</section>
+
+
+<!-- FEATURED VIDEO -->
+
+<section class="section">
+
+<h2>Featured Video</h2>
+
+<br>
+
+<iframe
+src="https://www.youtube.com/embed"
+allowfullscreen>
+</iframe>
+
+</section>
+
+
+<!-- CONTENT -->
+
+<section class="section">
+
+<h2>What You'll Find</h2>
+
+<br>
+
+<div class="cards">
+
+<div class="card">
+<h3>🎮 Gameplay</h3>
+<p>High-quality gameplay videos.</p>
+</div>
+
+<div class="card">
+<h3>🔥 Gaming Shorts</h3>
+<p>Short and entertaining clips.</p>
+</div>
+
+<div class="card">
+<h3>🏆 Walkthroughs</h3>
+<p>Complete game walkthroughs.</p>
+</div>
+
+<div class="card">
+<h3>💡 Tips & Tricks</h3>
+<p>Helpful gaming guides.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- POPULAR VIDEOS -->
+
+<section class="section">
+
+<h2>Popular Uploads</h2>
+
+<br>
+
+<div class="cards">
+
+<div class="card">
+<h3>Most Viewed Video</h3>
+<p>Add your most popular video here.</p>
+</div>
+
+<div class="card">
+<h3>Latest Upload</h3>
+<p>Add your newest upload here.</p>
+</div>
+
+<div class="card">
+<h3>Best Short</h3>
+<p>Add your best-performing Short.</p>
+</div>
+
+</div>
+
+</section><!-- WHY SUBSCRIBE -->
+
+<section class="section">
+
+<h2 style="text-align:center;">❤️ Why Subscribe?</h2>
+
+<br>
+
+<div class="cards">
+
+<div class="card">
+<h3>🎮 Daily Gaming</h3>
+<p>Fresh gameplay videos and gaming content.</p>
+</div>
+
+<div class="card">
+<h3>🔥 Trending Games</h3>
+<p>Latest popular games and updates.</p>
+</div>
+
+<div class="card">
+<h3>🎥 High Quality</h3>
+<p>Enjoy entertaining and high-quality videos.</p>
+</div>
+
+<div class="card">
+<h3>🚀 Join the Community</h3>
+<p>Become a part of the MrBroHS Gaming family.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SOCIAL LINKS -->
+
+<section class="section">
+
+<h2 style="text-align:center;">🌐 Follow Me</h2>
+
+<br>
+
+<div class="cards">
+
+<div class="card">
+<h3>YouTube</h3>
+
+<a
+href="https://youtube.com/@mrbrohsgaming?si=DxqHP7Y2VgPogQhl"
+target="_blank"
+class="btn">
+Visit Channel
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="section">
+
+<h2 style="text-align:center;">📩 Contact</h2>
+
+<br>
+
+<p style="text-align:center;">
+For collaborations and business inquiries, contact me through my YouTube channel.
+</p>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<h2>🎮 MrBroHS Gaming</h2>
+
+<br>
+
+<p>
+Thank you for visiting my website.
+</p>
+
+<br>
+
+<p>
+© 2026 MrBroHS Gaming. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
